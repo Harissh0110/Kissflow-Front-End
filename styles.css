@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Graphik Web Medium,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+nav{
+    width: 100%;
+}
+ul{
+    display: inline-block;
+}
+.parent{
+    display: flex;
+    position: fixed;
+    top: 0.2px;
+    background: white;
+    width: 100%;
+  }
+.child1 li{
+    display: inline-block;
+    margin:10px ;
+}
+.child2 li{
+    display: inline-block;
+    margin:10px ;
+}
+.child1{
+    margin: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.child2{
+    margin: 30px;
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 16px;
+}
+li{
+    font-size: 16px;
+}
+a{
+  color: black;
+}
+.button {
+    background-color: #007aff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn {
+    background-color: #007aff;
+    border: none;
+    color: white;
+    padding: 12px 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .butn{
+    background-color:white;
+    border: 1px solid #007aff;
+    color: #007aff;
+    padding: 12px 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .row{
+    width: 100%;
+    margin-top:200px;
+    display: flex;
+  }
+  .col-1{
+    width: 50%;
+    text-align: center;
+  }
+  .txt-clr{
+    font-size: 85px;
+    color: purple;
+  }
+  .txt1{
+    font-size: 55px;
+    font-weight: lighter;
+  }
+  .txt2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #405261;
+  }
+  .col{
+    width: 50%;
+  }
+  .col2{
+    text-align: center;
+  }
+  .row2{
+    margin-top: 100px;
+  }
+  iframe{
+    border-radius: 10px;
+  }
+  .c2{
+    display: flex;
+    margin-left: 60px;
+  }
+  .txtlrg{
+    font-size: 20px;
+    color: #748494;
+    text-align: center;
+    }
+    .bld{
+        color: black;
+        font-weight: bold;
+    }
+    .row3{
+      margin-top: 7rem;
+      width: 100%;
+    }
+    .colm-1{
+      text-align: center;
+      font-size: 30px;
+      color: #1d2b36
+    }
+    .colm-2{
+      display: flex;
+      width: 100%;
+      align-content: center;
+      justify-content: space-around;
+    }
+    
+    .colom {
+      display: flex;
+      text-align: center;
+      align-content: center;
+      margin-top: 25px;
+        }
+    .btn-1{
+      padding: 10px 20px;
+      color: gray;
+      font-size: 20px;
+      background: white;
+      border-radius: 30px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .cntr{
+      align-content: center;
+      margin: 20px;
+    }
+    .demo{
+      width: 100%;
+    }
+    .digital{
+      width: 100%;
+    }
+    .child5{
+      width: 100%;
+      display: flex;
+      margin: 50px
+    }
+    .child6{
+      width: 100%;
+      display: flex;
+    }
+    .colom-1{
+      width: 32%;
+    }
+    .colom-2{
+      width: 32%;
+    }
+    .dlft{
+      float: left;
+    }
+    .drht{
+      margin-left: 40px;
+      font-size: 20px;
+    }
