@@ -251,3 +251,31 @@ a{
   .img4{
     width: 100%;
   }
+  .footer-row{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-column{
+    padding: 10px 50px;
+    margin: 0px 10px;
+}
+
+.footer-container{
+    background-color: #f9fafa;
+    min-height: 400px;
+}
+
+.footer-ul li a{
+    line-height: 50px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    margin: 0px 5px;
+}
+.footer-ul li{
+  list-style-type: none;
+  font-size: 12px;
+}
